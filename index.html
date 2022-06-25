@@ -1,0 +1,179 @@
+
+<html >
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Movies App</title>
+</head>
+<body>
+    
+
+    <!-- search section -->
+
+    <section class=" py-5">
+        <div class="container">  
+            <div class="row">
+                <div class=" col-md-6">
+                    <input type="text" class=" form-control mb-5" id="searchApi" placeholder="get Movies by Word..."/>
+                </div>
+
+                <div class=" col-md-6">
+                    <input type="text" class=" form-control mb-5" id="search" placeholder="Search..."/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies section -->
+
+    <section>
+        <div class=" container">
+            <div class="row mb-5" id="results"></div>
+            <div class="row" id="dataBox">
+                <!-- <div class=" col-lg-4 col-md-6 ">
+                    <div class="position-relative poster">
+                        <img src="imges/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" width="100%" alt="">
+                        <div class="layer d-flex flex-wrap justify-content-center align-items-center">
+                            <div>
+                                <h2 id="movieTitle">
+                                    Doctor Strange in the Multiverse of Madness
+                                </h2>
+    
+                                <p id="movieDesc">
+                                    Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.
+                                </p>
+    
+                                <p id="movieRate">
+                                    rate: 7.6
+                                </p>
+    
+                                <p id="movieRelDate">
+                                    2022-05-04
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section  -->
+
+    <section id="contact-section">
+        <div class="container py-5">
+            <div class="row user-inputs">
+                <div class=" col-12 mb-5 ">
+                    <h2>
+                        ContacUs...
+                    </h2>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <input type="text" class=" form-control" id="userName" placeholder="Enter Your Name"/>
+                    <div class=" alert d-non" >Please enter a valid Name</div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <input type="text" class=" form-control" id="userMail" placeholder="Enter Email"/>
+                    <div class=" alert d-non" >Please enter a valid Email</div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <input type="text" class=" form-control" id="userPhone" placeholder="Enter Phone"/>
+                    <div class=" alert d-non" >Please enter a valid Number</div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <input type="text" class=" form-control" id="userAge" placeholder="Enter Age"/>
+                    <div class=" alert d-non" >Please enter a valid Age</div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <input type="text" class=" form-control" id="userPass" placeholder="Enter Password"/>
+                    <div class=" alert d-non" >entre valid password *Minimum eight characters, at least one letter and one number:*</div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <input type="text" class=" form-control" id="userRepass" placeholder="Enter RePassword"/>
+                    <div class=" alert d-non" >Please enter The same password</div>
+                </div>
+
+                <div class=" col-12">
+                    <button class=" btn btn-outline-danger disabled"> Submit </button>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- side Nav -->
+    <nav id="nav">
+        <div class=" open-side  d-flex flex-wrap justify-content-center">
+            <div class=" logo-holder w-100 text-center ">
+                <img src="imges/logo.png" width="100%" alt="">
+            </div>
+            
+
+            <div class=" btn-holder w-100 text-center">
+              <i class="fa fa-align-justify" id="open-icon"></i>
+            </div>
+
+
+            <div class=" share-holder w-100 text-center">
+                <i class="fas fa-globe mb-3"></i>
+                <i class="fas fa-share-alt"></i>
+            </div>
+        </div>
+
+        <div class=" side-nave-content d-flex flex-wrap  ">
+            <div class=" w-100  ">
+                <ul class=" overflow-hidden">
+                    <li>
+                        <a href="#" id="nowPlayingBtn">Now playing</a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="popularBtn">Popular</a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="topRatedBtn">Top Rated</a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="trendingBtn">Trending</a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="upcomingBtn">Upcoming</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact-section">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class=" copy-write p-4 w-100 align-self-end">
+                <a href="#"> <i class=" fab fa-facebook-f"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fas fa-globe"></i> </a>
+
+                <div>
+                    <span class=" text-muted">
+                        Copyright Â© 2019 All Rights Reserved.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
